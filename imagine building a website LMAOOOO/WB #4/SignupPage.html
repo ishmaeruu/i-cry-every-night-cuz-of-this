@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Act 2 - Digman</title>
+    <link rel="stylesheet" href="StyleSheet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <!--NAVBAR START-->
+    <div id="navbar">
+        <div id="topnav">
+            <a href="RestockPage.html">Restock</a>
+            <a href="OrderPage.html">Orders</a>
+            <a href="CustomerPage.html">Customers</a>
+            <a href="LoginPage.html">Log-in</a>
+        </div>
+        <div id="searchbar">
+            <input type="text" placeholder="Search for..." />
+        </div>
+        <div>
+            <a href="MainPage.html">
+                <img id="logo" src="imgs/storelogo.png" width="100" height="100" /> 
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img id="cart" src="imgs/cart.png" alt="cart" width="75" height="75" />
+            </a>
+        </div>
+    </div>
+    <!--END-->
+    <div class="login">
+        <h1> SIGN - UP</h1>
+        <form method="post">
+            <div class="inputtext">
+                <input type="text" required id="un">
+                <label>Username</label>
+            </div>
+            <div class="inputtext">
+                <input type="password" required id="pw">
+                <label>Password</label>
+            </div>
+            <div class="inputtext">
+                <input type="text" required id="ea">
+                <label>Email Address</label>
+            </div>
+            <div class="inputtext">
+                <input type="text" required id="pnum">
+                <label>Phone Number</label>
+            </div>
+            <input type="submit" value="SIGN UP" onclick="SignupVal()"/>
+        </form>
+    </div>
+</body>
+</html>

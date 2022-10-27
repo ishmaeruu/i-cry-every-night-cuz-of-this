@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Act 2 - Digman</title>
+    <link rel="stylesheet" href="StyleSheet.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link href="tooltip.css" rel="stylesheet" type="text/css" />
+    <script src="tooltip.js" type="text/javascript"></script>
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <!--Homepage START-->
+    <div id="product">
+        <h1>Products</h1>
+        <table id="tblprod">
+            <tr>
+                   <td id="cpu" onmouseover="holder('cpu');tooltip.ajax(this, 'ProductXML.xml', myAjaxSetting, {position:2});" onclick="prxml()"><a><img class="select" src="imgs/cpu.png" width="100" height="100" /></a></td>
+                   <td id="GPU" onmouseover="holder('GPU');tooltip.ajax(this, 'ProductXML.xml', myAjaxSetting, {position:2});" onclick="prxml()"><a><img class="select" src="imgs/gpu.png" width="100" height="100" /></a></td>
+                   <td id="monitor" onmouseover="holder('monitor');tooltip.ajax(this,'ProductXML.xml', myAjaxSetting, {position:2});" onclick="prxml()"><a><img class="select" src="imgs/monitor.png" width="100" height="100" /></a></td>
+                   <td id="ram" onmouseover="holder('ram');tooltip.ajax(this,'ProductXML.xml', myAjaxSetting, {position:2});" onclick="prxml()"><a><img class="select" src="imgs/ram.png" width="100" height="100" /></a></td>
+                   <td id="mb" onmouseover="holder('mb');tooltip.ajax(this,'ProductXML.xml', myAjaxSetting, {position:2});" onclick="prxml()"><a><img class="select" src="imgs/mb.png" width="100" height="100" /></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="brand">
+        <h1>Brands</h1>
+        <table id="tblbrand">
+            <tr>
+                   <td id="asus" onclick="brandzone('Asus'); brxml()"><img class="select" src="imgs/asus.png" width="100" height="100" /></td>
+                   <td id="msi" onclick="brandzone('MSI'); brxml()"><img class="select" src="imgs/msi.png" width="100" height="100" /></td>
+                   <td id="nvidia" onclick="brandzone('NVIDIA'); brxml()"><img class="select" src="imgs/nvidia.png" width="100" height="100" /></td>
+                   <td id="intel" onclick="brandzone('Intel'); brxml()"><img class="select" src="imgs/intel.png" width="100" height="100" /></td>
+                   <td id="amd" onclick="brandzone('AMD'); brxml()"><img class="select" src="imgs/amd.png" width="100" height="100" /></td>  
+            </tr>
+        </table>
+    </div>
+    <!--END-->
+</body>
+</html>

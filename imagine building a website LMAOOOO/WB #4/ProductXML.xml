@@ -1,0 +1,122 @@
+﻿<ProductXML>
+  <items>
+    <ctg>cpu</ctg>
+    <img>imgs/cpu1.png</img>
+    <dtl>Intel Core i9-10900K 3.7GHz</dtl>
+    <prc>₱30,320</prc>
+  </items>
+  <items>
+    <ctg>cpu</ctg>
+    <img>imgs/cpu2.png</img>
+    <dtl>Intel Core i5-11400 2.6GHz</dtl>
+    <prc>₱11,999</prc>
+  </items>
+  <items>
+    <ctg>cpu</ctg>
+    <img>imgs/cpu3.png</img>
+    <dtl>AMD Ryzen 9 5950X 3.4GHz</dtl>
+    <prc>₱56,999</prc>
+  </items>
+  <items>
+    <ctg>cpu</ctg>
+    <img>imgs/cpu4.png</img>
+    <dtl>AMD Ryzen 7 5800X3D 3.4GHz</dtl>
+    <prc>₱25,995</prc>
+  </items>
+  <items>
+    <ctg>GPU</ctg>
+    <img>imgs/gpu1.png</img>
+    <dtl>NVIDIA Gigabyte GeForce RTX 3080 Ti Gaming OC 12GB GDDR6X</dtl>
+    <prc>₱66,870</prc>
+  </items>
+  <items>
+    <ctg>GPU</ctg>
+    <img>imgs/gpu2.png</img>
+    <dtl>NVIDIA MSI GeForce RTX 3060 Gaming X 12GB GDDR6</dtl>
+    <prc>₱36,995</prc>
+  </items>
+  <items>
+    <ctg>GPU</ctg>
+    <img>imgs/gpu3.png</img>
+    <dtl>AMD Gigabyte Radeon RX 5600 XT Gaming OC 6GB GDDR6</dtl>
+    <prc>₱19,940</prc>
+  </items>
+  <items>
+    <ctg>GPU</ctg>
+    <img>imgs/gpu4.png</img>
+    <dtl>AMD Asus Radeon RX 5600 XT Strix Gaming 6GB GDDR6</dtl>
+    <prc>₱23,750</prc>
+  </items>
+  <items>
+    <ctg>mb</ctg>
+    <img>imgs/mb1.png</img>
+    <dtl>MSI MAG B660 Tomahawk WiFi DDR4</dtl>
+    <prc>₱11,600</prc>
+  </items>
+  <items>
+    <ctg>mb</ctg>
+    <img>imgs/mb2.png</img>
+    <dtl>MSI B550M-Pro</dtl>
+    <prc>₱4,950</prc>
+  </items>
+  <items>
+    <ctg>mb</ctg>
+    <img>imgs/mb3.png</img>
+    <dtl>Asus ROG Strix B550-A Gaming</dtl>
+    <prc>₱11,730</prc>
+  </items>
+  <items>
+    <ctg>mb</ctg>
+    <img>imgs/mb4.png</img>
+    <dtl>Asus ROG Maximus XIII Hero</dtl>
+    <prc>₱27,999</prc>
+  </items>
+  <items>
+    <ctg>ram</ctg> 
+    <img>imgs/ram1.png</img>
+    <dtl>Corsair CMT16GX4M2C3600C18 Dominator Platinum RGB 16GB DDR4 3600MHz</dtl>
+    <prc>₱6,890</prc>
+  </items>
+  <items>
+    <ctg>ram</ctg>
+    <img>imgs/ram2.png</img>
+    <dtl>G.Skill Ripjaws V Series 32GB 3600Mhz 32GB CL18 F4-3600C18D</dtl>
+    <prc>₱6,450</prc>
+  </items>
+  <items>
+    <ctg>ram</ctg>
+    <img>imgs/ram3.png</img>
+    <dtl>Kingston HyperX Fury Memory 16GB DDR4 2666MHz CL16</dtl>
+    <prc>₱3,499</prc>
+  </items>
+  <items>
+    <ctg>ram</ctg>
+    <img>imgs/ram4.png</img>
+    <dtl>G.Skill Trident Z Neo RGB F4-3600C18D-16GTZN 16GB DDR4 3600MHz</dtl>
+    <prc>₱6,999</prc>
+  </items>
+  <items>
+    <ctg>monitor</ctg>
+    <img>imgs/mntr1.png</img>
+    <dtl>Samsung Odyssey LC27G55TQWEXXP 27in</dtl>
+    <prc>₱11,600</prc> 
+  </items>
+  <items>
+    <ctg>monitor</ctg>
+    <img>imgs/mntr2.png</img>
+    <dtl>LG UltraFine 27UP850-B 27in</dtl>
+    <prc>₱24,300</prc>
+  </items>
+  <items>
+    <ctg>monitor</ctg>
+    <img>imgs/mntr3.png</img>
+    <dtl>Samsung LS32BM801UEXXY 32in</dtl>
+    <prc>₱39,999</prc>
+  </items>
+  <items>
+    <ctg>monitor</ctg>
+    <img>imgs/mntr4.png</img>
+    <dtl>LG 22MN430M 21.5in</dtl>
+    <prc>₱7,640</prc>
+  </items>
+</ProductXML>

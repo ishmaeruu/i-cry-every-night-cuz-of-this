@@ -1,0 +1,14 @@
+﻿<CustomerXML>
+  <CInfo>
+    <CustID>1</CustID>
+    <CustEAdd>im1stcustomer@gmail.com</CustEAdd>
+    <CustNum>09123456789</CustNum>
+    <RegDate>01/01/2020</RegDate>
+  </CInfo>
+  <CInfo>
+    <CustID>2</CustID>
+    <CustEAdd>im2ndcustomer@hotmail.com</CustEAdd>
+    <CustNum>09987654321</CustNum>
+    <RegDate>01/01/2022</RegDate>
+  </CInfo>
+</CustomerXML>
